@@ -39,5 +39,14 @@ namespace SolutionTest
 
             Assert.Equal([1], result);
         }
+
+        [Fact]
+        public void SimpleDuplicateArray_ReturnsCutArray()
+        {
+            var solution = new Solution();
+            var result = solution.Solve([1, 1]);
+
+            Assert.Equal([1], result);
+        }
     }
 }
