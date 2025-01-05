@@ -30,5 +30,14 @@ namespace SolutionTest
 
             Assert.Equal([], result);
         }
+
+        [Fact]
+        public void OneItemInArray_ReturnsThatArray()
+        {
+            var solution = new Solution();
+            var result = solution.Solve([1]);
+
+            Assert.Equal([1], result);
+        }
     }
 }
