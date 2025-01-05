@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RemoveDupFromSortedArray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a574be26adfe9daaa22e23870149369aaed680fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4e2cbd3bcf89db75ea2771075d45d87d4e188c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("RemoveDupFromSortedArray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RemoveDupFromSortedArray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

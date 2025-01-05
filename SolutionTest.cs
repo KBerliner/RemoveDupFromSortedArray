@@ -21,5 +21,14 @@ namespace SolutionTest
 
         //     Assert.Equal([0, 1, 2, 3, 4], result);
         // }
+
+        [Fact]
+        public void EmptyArray_ReturnsEmptyArray()
+        {
+            var solution = new Solution();
+            var result = solution.Solve([]);
+
+            Assert.Equal([], result);
+        }
     }
 }
